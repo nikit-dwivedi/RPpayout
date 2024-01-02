@@ -4,23 +4,23 @@ const axios = require('axios')
 // const contactdb = require('../config/contactdb') 
 // const { updateFund } = require('../dao/fund.dao')
 
-const userName = "rzp_test_6MiKMSx0Yos6kD"
-const password = "rwf58Kg40D0Qk6djwSk75hgT"
+const userName = ""
+const password = ""
 
 async function createPayout(req,res){
     const data = {
-        account_number: "2323230010360762",
-        fund_account_id: "fa_J83maChwxwauZ6",
+        account_number: "",
+        fund_account_id: "",
         amount: 1000000,
         currency: "INR",
         mode: "IMPS",
         purpose: "refund",
         queue_if_low_balance: true,
-        reference_id: "Acme Transaction ID 12345",
-        narration: "Acme Corp Fund Transfer",
+        reference_id: "",
+        narration: "",
         notes: {
-          notes_key_1:"Tea, Earl Grey, Hot",
-          notes_key_2:"Tea, Earl Grey… decaf."
+          notes_key_1:"",
+          notes_key_2:""
         }
     }
     const buffer = Buffer.from(`${userName}:${password}`);

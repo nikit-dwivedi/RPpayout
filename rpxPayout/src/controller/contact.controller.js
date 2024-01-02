@@ -2,8 +2,8 @@
 const contactDao = require('../dao/contact.dao')
 const axios = require('axios')
 
-const userName = "rzp_test_6MiKMSx0Yos6kD"
-const password = "rwf58Kg40D0Qk6djwSk75hgT"
+const userName = ""
+const password = ""
 
 async function createContact(req,res){
     const buffer = Buffer.from(`${userName}:${password}`);
